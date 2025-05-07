@@ -1,0 +1,14 @@
+a) +
+b) /
+c) *
+d) **
+e) +
+f) +
+g) /
+
+h) or
+i) and
+j) not
+k) or
+l) and
+m) and

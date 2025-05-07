@@ -1,0 +1,20 @@
+quote = "\"Het leven is als rijden op een bromfiets. Je moet in beweging blijven om niet om te vallen.\""
+ 
+print('a) -> quote = ' + quote)
+print('b) -> quote = ' + str(quote.replace("bromfiets", "fiets")))
+print('c) -> quote = ' + str(quote.replace("beweging", "belans")))
+char_list = list(quote)
+print('d) -> quote = ' + char_list[3])
+print('e) -> quote = ' + char_list[-3])
+print('f) -> quote = ' + quote[5:10])
+print('g) -> quote = ' + quote[1:10])
+print('h) -> quote = ' + quote[79:92])
+print('i) -> quote = ' + quote[::2])
+blijven = quote[62:70]
+eerste_drie = blijven[:3]
+elke_derde = blijven[3::3]
+print('j) -> quote = ' + eerste_drie + elke_derde)
+print('k) -> quote = ' + quote[1:79])
+print('l) -> quote = ' + quote[3:92])
+print('m) -> quote = ' + quote[12:70])
+print('n) -> quote = ' + quote[::-1])
